@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:rowCount="5"
+            android:columnCount="2"
+            android:background="#c9c9c9c9">
+
+    <Button android:id="@+id/padding_left" android:text="Animate paddingLeft"/>
+    <Button android:id="@+id/margins_bottom" android:text="Animate marginBottom"/>
+    <Button android:id="@+id/padding_multiple_left_right" android:text="Animate paddingLeft/Right"/>
+    <Button android:id="@+id/margins_multiple_top_bottom" android:text="Animate marginTop/Bottom"/>
+    <Button android:id="@+id/reset" android:text="Reset"/>
+
+    <include android:id="@+id/va_image_pane"
+             android:layout_gravity="center"
+             android:layout_rowSpan="5"
+             android:layout_margin="50dp"
+             layout="@layout/image_pane"/>
+
+</GridLayout>

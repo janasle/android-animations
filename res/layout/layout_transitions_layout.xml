@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/layout_transitions"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:columnCount="2">
+
+    <Button android:id="@+id/enable"
+            android:text="Enable"/>
+    <Button android:id="@+id/add_view"
+            android:text="Add View"/>
+    <Button android:id="@+id/remove_view"
+            android:text="Remove View"/>
+    <Button android:id="@+id/adjust_delay"
+            android:text="Remove Delay"/>
+    <Button android:id="@+id/adjust_in_animations"
+            android:text="Disable in-animations"/>
+    <Button android:id="@+id/adjust_out_animations"
+            android:text="Disable out-animations"/>
+    <Button android:id="@+id/adjust_in_change_animations"
+            android:text="Disable in-change-animations"/>
+    <Button android:id="@+id/adjust_out_change_animations"
+            android:text="Disable out-change-animations"/>
+
+    <GridLayout android:id="@+id/pane"
+                android:rowCount="10"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_gravity="fill"
+                android:useDefaultMargins="true"
+                android:orientation="horizontal"/>
+
+</GridLayout>

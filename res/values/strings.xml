@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Demos</string>
+    <string name="layouts_activity_name">Layouts</string>
+    <string name="anim_activity_name">Animations</string>
+</resources>

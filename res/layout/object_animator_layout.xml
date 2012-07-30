@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:rowCount="5"
+            android:columnCount="2"
+            android:background="#c9c9c9c9">
+
+    <Button android:id="@+id/scale_x" android:text="Animate scaleX"/>
+    <Button android:id="@+id/translation_x" android:text="Animate translationX"/>
+    <Button android:id="@+id/background" android:text="Animate background"/>
+    <Button android:id="@+id/rotation_x_y" android:text="Animate rotationX/Y"/>
+    <Button android:id="@+id/reset" android:text="Reset"/>
+
+    <include android:id="@+id/oa_image_pane"
+             android:layout_gravity="center"
+             android:layout_rowSpan="5"
+             android:layout_margin="50dp"
+             layout="@layout/image_pane"/>
+
+</GridLayout>
